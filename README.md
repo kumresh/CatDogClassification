@@ -1,6 +1,5 @@
 <div align="center">
-| <img src="https://github.com/kumresh/CatDogClassification/blob/master/app/src/main/assets/loading.jpeg" width="240">   | <img src="https://github.com/kumresh/CatDogClassification/blob/master/app/src/main/assets/predict.jpeg" width="240"> |
-|:---:|:---:|
+ <img src="https://github.com/kumresh/CatDogClassification/blob/master/app/src/main/assets/loading.jpeg" width="240">   <img src="https://github.com/kumresh/CatDogClassification/blob/master/app/src/main/assets/predict.jpeg" width="240"> 
 
 <h1>Pytorch Mobile</h2>
 </div>
