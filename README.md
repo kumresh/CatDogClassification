@@ -26,7 +26,7 @@ PyTorch Lite supports quantization-aware training, which helps to optimize the m
 The app uses a pre-trained PyTorch for image classification. The model has been trained on a large dataset of dog and cat images, resulting in high accuracy and speed.
 
 ## Conclusion
-We hope you find this app useful and enjoyable. With its fast and accurate image recognition, you can now easily classify images of dogs and cats with just a few taps. Enjoy!
+I hope you find this app useful and enjoyable. With its fast and accurate image recognition, you can now easily classify images of dogs and cats with just a few taps. Enjoy!
 
 
 
