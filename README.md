@@ -1,5 +1,5 @@
 # Introduction
-Welcome to the Android App that classifies images of dogs and cats using a PyTorch and Convolutional Neural Network (CNN) model. The app is designed to help users easily classify images of dogs and cats with the touch of a button.
+Welcome to the Android App that classifies images of dogs and cats using a `PyTorch`. The app is designed to help users easily classify images of dogs and cats with the touch of a button.
 
 | <img src="https://github.com/kumresh/CatDogClassification/blob/master/app/src/main/assets/loading.jpeg" width="240">   | <img src="https://github.com/kumresh/CatDogClassification/blob/master/app/src/main/assets/predict.jpeg" width="240"> |
 |:---:|:---:|
