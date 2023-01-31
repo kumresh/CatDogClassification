@@ -11,6 +11,7 @@ Welcome to the Android App that classifies images of dogs and cats using a `PyTo
 - Easy and intuitive image classification of `dogs` and `cats`
 - Accurate image recognition using a `PyTorch` model
 - Minimal and user-friendly interface
+- pretrained weight `mobilenetv2`
 
 ## How to Use
 - Open the app
