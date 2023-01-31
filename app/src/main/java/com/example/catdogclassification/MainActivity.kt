@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
 
         try {
             myBitmap = BitmapFactory.decodeStream(assets.open("image.jpeg"))
-            myModule = LiteModuleLoader.load(assetFilePath(this, "model.ptl"))
+            myModule = LiteModuleLoader.load(assetFilePath(this, "optmize_model.ptl"))
         } catch (e: IOException) {
             Log.e("PytorchHelloWorld", "Error reading assets", e)
             finish()
@@ -79,15 +79,17 @@ class MainActivity : AppCompatActivity() {
             val outputTensor: Tensor = myModule.forward(IValue.from(inputTensor)).toTensor()
             val scores = outputTensor.dataAsFloatArray
             var maxScore = -Float.MAX_VALUE
-            var maxScoreIdx = -1
-            for (i in scores.indices) {
-                if (scores[i] > maxScore) {
-                    maxScore = scores[i]
-                    maxScoreIdx = i
-                }
-            }
-            val className: String = dogCatClass[maxScoreIdx]
+
             runOnUiThread {
+                var maxScoreIdx = -1
+                for (i in scores.indices) {
+                    if (scores[i] > maxScore) {
+                        maxScore = scores[i]
+                        maxScoreIdx = i
+                    }
+                }
+                val className: String = dogCatClass[maxScoreIdx]
+
                 outputText.text = "$className"
                 outputText.isVisible = true
                 progressBar.isVisible = false
